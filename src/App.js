@@ -82,10 +82,10 @@ function App() {
     <div className="App">
       <NavigationComponent></NavigationComponent>
 
-
+    
       <div className="container">
         <input
-          className="inputField"
+          className="inputField addInput" 
           type="text"
           placeholder="Search Course"
           value={searchName}
@@ -95,21 +95,21 @@ function App() {
         <hr />
 
         <input
-        className="inputField"
+        className="inputField addInput"
           type="text"
           placeholder="New Course Name"
           value={newCourseName}
           onChange={(e) => setNewCourseName(e.target.value)}
         />
         <input
-        className="inputField"
+        className="inputField addInput"
           type="text"
           placeholder="New Course Description"
           value={newCourseDesc}
           onChange={(e) => setNewCourseDesc(e.target.value)}
         />
         <input
-        className="inputField"
+        className="inputField addInput"
           type="text"
           placeholder="New Course Department"
           value={newCourseDept}
@@ -118,7 +118,7 @@ function App() {
         />
         <br/>
         <input
-        className="inputField"
+        className="inputField addInput"
           type="text"
           placeholder="New Course Duration"
           value={newCourseDur}
@@ -126,7 +126,7 @@ function App() {
           onChange={(e) => setNewCourseDur(e.target.value)}
         />
         <input
-        className="inputField"
+        className="inputField addInput"
           type="Date"
           placeholder="New Course Date"
           value={newCourseDate}
@@ -134,7 +134,7 @@ function App() {
           onChange={(e) => setNewCourseDate(e.target.value)}
         />
         <input
-        className="inputField"
+        className="inputField addInput"
           type="time"
           placeholder="New Course Time"
           value={newCourseTime}
@@ -142,7 +142,7 @@ function App() {
           onChange={(e) => setNewCourseTime(e.target.value)}
         />
         <input
-        className="inputField"
+        className="inputField addInput"
           type="text"
           placeholder="New Course Room"
           value={newCourseRoom}

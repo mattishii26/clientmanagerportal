@@ -39,6 +39,7 @@
   .eventCard{
       border:  0.1px solid black;
       margin: 20px;
+      padding: 5px;
   }
 
   .eventTitle{
@@ -57,4 +58,10 @@
   }
   .inputField:hover{
     border-color: #118B63;
+  }
+  
+  .addInput{
+    display: inline;
+    width: 48% !important;
+    align-context: flex-start;
   }
