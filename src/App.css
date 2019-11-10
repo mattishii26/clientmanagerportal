@@ -1,4 +1,18 @@
-
+.button{
+  border-radius: 4px;
+  background-color: white;
+  color:#118B63;
+  border: 1px solid #118B63;
+  padding: 5px;
+  margin: 2px;
+  opacity: 1;
+  transition: 0.7s;
+}
+.button:hover{ 
+  background-color: #118B63;
+  color:white;
+  opacity: 1;
+}
 .navBar {
     background-color: #333;
     overflow: hidden;
@@ -31,4 +45,16 @@
     font-weight: bold;
     font-size: large;
     border-bottom: 0.1px solid black;
+  }
+
+  .inputField{
+    width: 50%;
+    padding: 5px;
+    margin: 2px;
+    border-radius: 4px;
+    background-color: #f2f6f8;
+    border:0px;
+  }
+  .inputField:hover{
+    border-color: #118B63;
   }

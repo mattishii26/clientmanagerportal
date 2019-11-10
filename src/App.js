@@ -85,6 +85,7 @@ function App() {
 
       <div className="container">
         <input
+          className="inputField"
           type="text"
           placeholder="Search Course"
           value={searchName}
@@ -94,18 +95,21 @@ function App() {
         <hr />
 
         <input
+        className="inputField"
           type="text"
           placeholder="New Course Name"
           value={newCourseName}
           onChange={(e) => setNewCourseName(e.target.value)}
         />
         <input
+        className="inputField"
           type="text"
           placeholder="New Course Description"
           value={newCourseDesc}
           onChange={(e) => setNewCourseDesc(e.target.value)}
         />
         <input
+        className="inputField"
           type="text"
           placeholder="New Course Department"
           value={newCourseDept}
@@ -114,6 +118,7 @@ function App() {
         />
         <br/>
         <input
+        className="inputField"
           type="text"
           placeholder="New Course Duration"
           value={newCourseDur}
@@ -121,6 +126,7 @@ function App() {
           onChange={(e) => setNewCourseDur(e.target.value)}
         />
         <input
+        className="inputField"
           type="Date"
           placeholder="New Course Date"
           value={newCourseDate}
@@ -128,6 +134,7 @@ function App() {
           onChange={(e) => setNewCourseDate(e.target.value)}
         />
         <input
+        className="inputField"
           type="time"
           placeholder="New Course Time"
           value={newCourseTime}
@@ -135,6 +142,7 @@ function App() {
           onChange={(e) => setNewCourseTime(e.target.value)}
         />
         <input
+        className="inputField"
           type="text"
           placeholder="New Course Room"
           value={newCourseRoom}
@@ -142,6 +150,7 @@ function App() {
           onChange={(e) => setNewCourseRoom(e.target.value)}
         />
         <input
+          className="button"
           type="button"
           value="Add Course"
           on

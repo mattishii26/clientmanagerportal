@@ -54,11 +54,13 @@ export default class TrainingEventComponent extends Component {
                 {this.state.editable ?
                     <div>
                         <input
+                            className="button"
                             type="button"
                             value="Cancel"
                             onClick={() => {cancelHandler() }}
                         />
                         <input
+                        className="button"
                             type="button"
                             value="Update"
                             onClick={() => { updateHandler() }}
@@ -66,6 +68,7 @@ export default class TrainingEventComponent extends Component {
                         <br/> 
                         Course Name: 
                         <input
+                        className="inputField"
                             type="text"
                             value={this.state.updatename}
                             onChange={(e) => this.setState({updatename: e.target.value})}
@@ -73,6 +76,7 @@ export default class TrainingEventComponent extends Component {
                         <br/>
                         Course Description: 
                         <input
+                        className="inputField"
                             type="text"
                             value={this.state.updatedesc}
                             onChange={(e) => this.setState({updatedesc: e.target.value})}
@@ -80,6 +84,7 @@ export default class TrainingEventComponent extends Component {
                         <br/>
                         Course Department: 
                         <input
+                        className="inputField"
                             type="text"
                             value={this.state.updatedept}
                             onChange={(e) => this.setState({updatedept: e.target.value})}
@@ -87,6 +92,7 @@ export default class TrainingEventComponent extends Component {
                         <br/>
                         Course Duration:
                         <input
+                        className="inputField"
                             type="text"
                             value={this.state.updatedura}
                             onChange={(e) => this.setState({updatedura: e.target.value})}
@@ -94,6 +100,7 @@ export default class TrainingEventComponent extends Component {
                         <br/>
                         Course Date: 
                         <input
+                        className="inputField"
                             type="text"
                             value={this.state.updatedate}
                             onChange={(e) => this.setState({updatedate: e.target.value})}
@@ -101,6 +108,7 @@ export default class TrainingEventComponent extends Component {
                         <br/>
                         Course Time: 
                         <input
+                        className="inputField"
                             type="text"
                             value={this.state.updatetime}
                             onChange={(e) => this.setState({updatetime: e.target.value})}
@@ -108,6 +116,7 @@ export default class TrainingEventComponent extends Component {
                         <br/>
                         Course Location:
                         <input
+                        className="inputField"
                             type="text"
                             value={this.state.updateloc}
                             onChange={(e) => this.setState({updateloc: e.target.value})}
@@ -118,6 +127,7 @@ export default class TrainingEventComponent extends Component {
                     <div>
                         <div className="eventTitle">
                             <input
+                            className="button"
                                 type="button"
                                 value="Edit"
                                 onClick={() => { this.setState({ editable: true }) }}
